@@ -1,0 +1,115 @@
+ /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+  .iconcustom
+  {
+    left:1%;
+    float:left;
+    width: 4vw;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+  .hlg
+  {
+    border-style: solid;
+    border-color: blue;
+  }
+   .navigationMARKERS {
+  overflow:auto;
+  list-style-type : none;
+  display: inline-block;
+  height : 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #c20000;
+  position: relative;
+  }
+  
+  li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  }
+  
+  #mainscreen {
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  }
+  
+  #map {
+    border-left-style:solid;
+    border-left-color: black;
+    height: 100%;
+    width:100%;
+  }
+
+  .H_ib_body {             /*STYLE YOUR INFOBUBBLES bRO*/
+  color:whitesmoke;
+  background: #c20000;
+  border: 0.5vh solid #333333;
+  padding:0px;
+  margin: 2vh;
+  height: auto;
+  margin-left : 2vw;
+  border-radius: 25px;
+  width:auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  }
+
+  #titleIB {
+    margin-top:2vh;
+    font-weight: bold;
+    font-size:3vh;
+    line-height:3vh;
+  }
+
+  hr.thinIB {
+    border-style:solid;
+    border-color:whitesmoke;
+    width:90%;
+  }
+
+  #textIB {
+    width:40vh;
+  }
+
+  #mapsIB
+  {
+    text-align:center;
+  }
+
+  #mapsIB a
+  {
+    color:gold;
+  }
+
+  .page-content
+  {
+    /* position:relative; */
+    text-align: center;
+    background-color: red;
+  }
+
+  .topscreen {
+    /* position: relative; */
+    float:left;
+    top: 1vh;
+    color: white;
+  }
+  .row
+  {
+    display:flex;
+    align-items: center;
+  }
+  .tog
+  {
+    position : absolute;
+    z-index: 10;
+    display: inline-block;
+    line-height: 1em;
+    width:10%;
+  }

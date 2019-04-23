@@ -8,6 +8,8 @@ As well as the synced link to your KML File of course.
 
 
 
-Previews : https://ibb.co/t4jYDLZ https://ibb.co/sHKJp56
+Previews : 
+*https://ibb.co/t4jYDLZ 
+*https://ibb.co/sHKJp56
 
 /!\ THESE ARE CODE SAMPLES, FUNCTIONAL, DESIGN HAS TO BE IMPROVE /!\
